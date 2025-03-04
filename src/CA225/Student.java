@@ -4,8 +4,8 @@ public class Student extends Person {
     private int marks;
 
     Student() {
-        super("Mohamed abdullahi", "Hodan", 20);
-        marks = 90;
+        //super("Mohamed abdullahi", "Hodan", 20);
+        //this("Mohamed abdullahi", "Hodan", 20 , 99);
         System.out.println("Student No-arg Constructor!");
     }
     Student (String name , String address , int age , int marks){
