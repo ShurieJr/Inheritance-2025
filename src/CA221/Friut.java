@@ -1,6 +1,6 @@
 package CA221;
 
-public  class Friut {
+public class Friut {
     protected String name;
     int age;
     private String address;
@@ -41,15 +41,27 @@ public  class Friut {
     public Friut() {
 
     }
-    Friut(String name){
+
+    Friut(String name) {
 
     }
-    //methods
-    void display(){
+
+    // methods
+    void display() {
         System.out.println("Fruit!");
     }
-   public final void display(String name){
+
+    public final void display(String name) {
         System.out.println(name);
     }
 
+    @Override
+    public String toString() {
+        return "Friut{" +
+                "name='" + name + '\'' +
+                ", age=" + age +
+                ", address='" + address + '\'' +
+                ", tel='" + tel + '\'' +
+                '}';
+    }
 }
