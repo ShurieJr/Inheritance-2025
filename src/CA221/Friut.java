@@ -47,11 +47,11 @@ public class Friut {
     }
 
     // methods
-    void display() {
+   public void display() {
         System.out.println("Fruit!");
     }
 
-    public final void display(String name) {
+     void display(String name) {
         System.out.println(name);
     }
 

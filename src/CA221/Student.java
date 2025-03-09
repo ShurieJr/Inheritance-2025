@@ -6,7 +6,7 @@ public class Student extends Person{
     Student(){
         //super();
         this(90);
-        System.out.println("Student no-arg constructor!");
+//        System.out.println("Student no-arg constructor!");
     }
     Student(int value){
         //super("Gedi" , "calikamiin" , 89);
