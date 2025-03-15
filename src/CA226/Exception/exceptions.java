@@ -3,9 +3,17 @@ package CA226.Exception;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
+import java.net.MalformedURLException;
+import java.net.URL;
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.SQLException;
 
 public class exceptions {
-    public static void main(String[] args)  {
+    public static void main(String[] args) throws SQLException, MalformedURLException {
+        Connection con = DriverManager.getConnection("jdbc:" , "user" , "pass");
+
+        URL url = new URL("https:///");
 
         int x = 1 , y = 1;
         try {
