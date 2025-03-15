@@ -1,4 +1,4 @@
-package T;
+package InterfacePaymentGateway;
 
 // PayPal Payment
 public class PayPalPayment implements PaymentGateway {

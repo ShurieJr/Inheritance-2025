@@ -1,9 +1,10 @@
-package T;
+package InterfacePaymentGateway;
 
 public class ECommerceApp {
     public static void main(String[] args) {
         // Customer selects a payment method
-        PaymentGateway paymentMethod = new PayPalPayment(); // Can be PayPalPayment or BitcoinPayment
+        PayPalPayment paymentMethod = new PayPalPayment();
+        // Can be PayPalPayment or BitcoinPayment
 
         // Process payment
         paymentMethod.processPayment(100.0);

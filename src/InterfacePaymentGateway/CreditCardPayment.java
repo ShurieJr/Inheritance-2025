@@ -1,4 +1,4 @@
-package T;
+package InterfacePaymentGateway;
 
 // Credit Card Payment
 public class CreditCardPayment implements PaymentGateway {
