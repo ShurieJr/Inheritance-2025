@@ -1,11 +1,12 @@
 package CA221.interfaces;
 
-public class Calculator extends test implements MathOperations , Comparable{
+public class Calculator extends test implements MathOperations , Interface2{
 
     @Override
     public void add(double a, double b) {
         System.out.println(a + b);
     }
+
 
     @Override
     public void mult(double a, double b) {
@@ -27,7 +28,7 @@ public class Calculator extends test implements MathOperations , Comparable{
         System.out.println(a % b);
     }
 void test(){
-        MathOperations.display();
+    System.out.println(MathOperations.RESULT);
 }
     public static void main(String[] args) {
         MathOperations c = new Calculator();
@@ -36,8 +37,4 @@ void test(){
         c.mult(2 , 9);
     }
 
-    @Override
-    public int compareTo(Object o) {
-        return 0;
-    }
 }

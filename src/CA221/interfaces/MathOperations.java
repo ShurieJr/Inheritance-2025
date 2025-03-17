@@ -8,7 +8,5 @@ public interface MathOperations {
     void sub(double a , double b);
     void mod(double a , double b);
 
-    static void display(){
 
-    };
 }
